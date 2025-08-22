@@ -2,11 +2,10 @@
 
 **`Web App | Software Developer`**
 
-I am a sophomore IT major at the University of Cincinnati, with a strong passion for technological applications and innovative solutions to real-world problems. 
-Through my coursework, hands-on projects, and internships, I have developed a solid foundation in modern frameworks and IT infrastructures. 
-I have experience in web application development using React, among other relevant coding languages, as well as experience in C# and Python. <br>
+I am a Full-Stack Software Engineer, proficent in React.js and C#, among other basic coding languages, with growing expertise in ASP.NET. 
+I am currently in my third year pursuing my B.S. in Information Technology at the University of Cincinnati, and I have a strong passion for technological applications and innovative solutions to real-world problems. 
 
-Currently, I am seeking a co-op for the Fall 2025 semester, where I can apply my skills and knowledge in a professional setting. 
+Through my coursework, hands-on projects, and internships, I have developed a solid foundation in modern frameworks and IT infrastructures, and I am currently seeking a co-op for the Fall 2026 semester, where I can apply my skills and knowledge in a professional setting. 
 I look forward to networking with new people and making meaningful connections within the industry!
 
 ---
