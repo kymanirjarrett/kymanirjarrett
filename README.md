@@ -2,11 +2,11 @@
 
 **`Web App | Software Developer`**
 
-I am a Full-Stack Software Engineer, proficent in React.js and C#, among other basic coding languages, with growing expertise in ASP.NET. 
-I am currently in my third year pursuing my B.S. in Information Technology at the University of Cincinnati, and I have a strong passion for technological applications and innovative solutions to real-world problems. 
+I am a Full-Stack Software Engineer experienced in building scalable applications for Fortune 500 companies, with expertise in ReactJS, NodeJS(Typescript/Express), C#, and PostgreSQL(Sequelize ORM). I have a strong passion for technological applications and innovative solutions to real-world problems, and I have engineered back-end solutions that implemented Liquibase database migrations, Clean Architecture, and SOLID principles to ensure long-term maintainability.
 
-Through my coursework, hands-on projects, and internships, I have developed a solid foundation in modern frameworks and IT infrastructures, and I am currently seeking a co-op for the Fall 2026 semester, where I can apply my skills and knowledge in a professional setting. 
-I look forward to networking with new people and making meaningful connections within the industry!
+Skilled in frontend performance optimization and UI/UX development, I have delivered secure and user-friendly enterprise solutions. My technical toolkit includes Docker, Git, Azure, Postman, and Jira, backed by my strong foundation in IT & Cybersecurity.
+
+I am currently in my third year pursuing a double Bachelor of Science in Information Technology and Cybersecurity at the University of Cincinnati, and I am seeking a co-op for the Summer 2026 semester, where I can apply my skills and knowledge in a professional setting, and I look forward to networking with new people and making meaningful connections within the industry!
 
 ---
 
