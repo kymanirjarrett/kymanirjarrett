@@ -39,26 +39,34 @@ Tuning notes
 
 Regenerating art/kymani-ascii.svg
 ---------------------------------
-source-photo.jpg is gitignored, so you need to supply it: a ~1.03:1 crop framed
-so the head fills about 72% of the frame height, which keeps the face legible at
-the 400px the README renders it at. art/kymani-ascii.svg is committed, so the
-README renders fine without the photo present. These are the exact flags behind
-the committed artifact:
+source-photo.jpg is gitignored, so you need to supply it: a studio headshot
+cropped to 0.65:1 (portrait orientation) with the head filling about 55% of the
+frame height. art/kymani-ascii.svg is committed, so the README renders fine
+without the photo present. These are the exact flags behind the artifact:
 
     python scripts/make_ascii_portrait.py source-photo.jpg art/kymani-ascii.svg \
-        --name "Kymani Jarrett" --handle kymani \
+        --name "Kymani Jarrett" --handle kymani --cols 78 --rows 64 \
         --gamma 0.85 --white-floor 0.90 --cutout
 
---cutout is required rather than optional here. The source is an outdoor shot
-with a water tower, buildings and a treeline behind the subject, and parts of
-that backdrop sit at the same luminance as the face, so no --white-floor value
-can separate them. Compositing onto pure white is what keeps it out of the art.
+The grid is 78x64 rather than the 100x52 default, and that is load-bearing. The
+README lays the portrait beside the terminal about-block in a two-column table,
+so the card has to be TALLER than it is wide or the left column ends in a large
+empty gap. 78x64 gives a 664x1042 canvas (0.637), which at width="400" renders
+about as tall as the about-block sitting next to it. If you edit that block and
+change its height, re-derive --rows to match instead of leaving the card short.
 
-The light polo shirt lands around 0.60-0.82 luminance against a 0.07-0.41 face,
-so it renders as sparse characters: a faint torso grounding a dense head. Do not
-reach for --contrast to sharpen the features. The face is evenly lit and sits in
-a narrow band, so raising contrast collapses the whole head into a solid block
-long before it separates anything.
+--cutout is required rather than optional. Parts of the blurred backdrop sit at
+the same luminance as the face, so no --white-floor value can separate them;
+compositing onto pure white is what keeps the background out of the art.
+
+The black t-shirt lands near 0.02-0.05 luminance against a 0.07-0.50 face, so it
+renders as a dense mass that grounds the lower half of the tall card. Do not
+reach for --contrast to sharpen the features: the face already spans a wide band
+here, and raising contrast collapses the whole head into a solid block.
+
+Cache-busting: the README references the SVG as ./art/kymani-ascii.svg?v=N.
+GitHub proxies README images through Camo and caches them hard, so bump N
+whenever you regenerate or the old portrait will keep being served.
 """
 
 from __future__ import annotations

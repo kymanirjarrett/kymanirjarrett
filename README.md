@@ -13,7 +13,7 @@
 
 <td width="45%" valign="top" align="center">
 
-<img src="./art/kymani-ascii.svg?v=2" width="400" alt="Kymani Jarrett — animated ASCII portrait" />
+<img src="./art/kymani-ascii.svg?v=3" width="400" alt="Kymani Jarrett — animated ASCII portrait" />
 
 </td>
 
@@ -41,6 +41,7 @@ Clausify  AI contract analysis scoring legal clauses
 $ cat ~/.involvement
 Corporate Outreach Chair | ColorStack@UC
 Secretary | Bearcat Buddies
+Resident Advisor | Resident Edu. & Dev.
 ```
 
 </td>
