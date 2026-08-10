@@ -1,0 +1,6 @@
+# Source photo for the ASCII portrait. Kept local -- art/kymani-ascii.svg is the
+# committed artifact, so the README works without it. See scripts/make_ascii_portrait.py
+# for the crop and flags needed to regenerate.
+source-photo.jpg
+
+.DS_Store

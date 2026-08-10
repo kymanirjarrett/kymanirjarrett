@@ -39,9 +39,11 @@ Tuning notes
 
 Regenerating art/kymani-ascii.svg
 ---------------------------------
-source-photo.jpg is a ~1.03:1 crop framed so the head fills about 72% of the
-frame height, which keeps the face legible at the 400px the README renders it
-at. The committed artifact was produced with these exact flags:
+source-photo.jpg is gitignored, so you need to supply it: a ~1.03:1 crop framed
+so the head fills about 72% of the frame height, which keeps the face legible at
+the 400px the README renders it at. art/kymani-ascii.svg is committed, so the
+README renders fine without the photo present. These are the exact flags behind
+the committed artifact:
 
     python scripts/make_ascii_portrait.py source-photo.jpg art/kymani-ascii.svg \
         --name "Kymani Jarrett" --handle kymani \
