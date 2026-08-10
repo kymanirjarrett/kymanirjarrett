@@ -39,11 +39,8 @@ Clausify  AI contract analysis scoring legal clauses
           for risk through a RAG pipeline.
 
 $ cat ~/.involvement
-Corporate Outreach Chair @ ColorStack, connecting
-students to the opportunities I learned to navigate.
-
-$ cat ~/.principles
-Clean system design. Exhaustive documentation.
+Corporate Outreach Chair | ColorStack@UC
+Secretary | Bearcat Buddies
 ```
 
 </td>
