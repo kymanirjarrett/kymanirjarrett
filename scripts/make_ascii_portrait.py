@@ -39,16 +39,24 @@ Tuning notes
 
 Regenerating art/kymani-ascii.svg
 ---------------------------------
-source-photo.jpg is a ~1.03:1 head-and-shoulders crop of the portfolio headshot.
-The committed artifact was produced with these exact flags -- the defaults render
-this photo as a dark, speckled blob:
+source-photo.jpg is a ~1.03:1 crop framed so the head fills about 72% of the
+frame height, which keeps the face legible at the 400px the README renders it
+at. The committed artifact was produced with these exact flags:
 
     python scripts/make_ascii_portrait.py source-photo.jpg art/kymani-ascii.svg \
         --name "Kymani Jarrett" --handle kymani \
-        --gamma 0.65 --white-floor 0.85 --cutout
+        --gamma 0.85 --white-floor 0.90 --cutout
 
---cutout matters here: it composites the subject onto pure white, which blanks
-the studio backdrop's vignette instead of letting it speckle the lower corners.
+--cutout is required rather than optional here. The source is an outdoor shot
+with a water tower, buildings and a treeline behind the subject, and parts of
+that backdrop sit at the same luminance as the face, so no --white-floor value
+can separate them. Compositing onto pure white is what keeps it out of the art.
+
+The light polo shirt lands around 0.60-0.82 luminance against a 0.07-0.41 face,
+so it renders as sparse characters: a faint torso grounding a dense head. Do not
+reach for --contrast to sharpen the features. The face is evenly lit and sits in
+a narrow band, so raising contrast collapses the whole head into a solid block
+long before it separates anything.
 """
 
 from __future__ import annotations
