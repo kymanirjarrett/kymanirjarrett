@@ -55,6 +55,16 @@ empty gap. 78x64 gives a 664x1042 canvas (0.637), which at width="400" renders
 about as tall as the about-block sitting next to it. If you edit that block and
 change its height, re-derive --rows to match instead of leaving the card short.
 
+The README no longer shows this file directly. scripts/compose_profile_card.py
+nests it beside the about-me terminal in art/profile-card.svg, cropping to the
+character grid, so the two windows always end on the same line. After
+regenerating the portrait, rerun:
+
+    python scripts/compose_profile_card.py art/kymani-ascii.svg art/profile-card.svg
+
+and bump the ?v= on the README's profile-card.svg. The 78x64 grid still matters:
+it sets the portrait window's width relative to the about window.
+
 --cutout is required rather than optional. Parts of the blurred backdrop sit at
 the same luminance as the face, so no --white-floor value can separate them;
 compositing onto pure white is what keeps the background out of the art.

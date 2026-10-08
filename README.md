@@ -6,50 +6,11 @@
 
 <!-- ─────────────────────────────  WHOAMI  ───────────────────────────── -->
 
-<div align="center">
-
-<table>
-<tr>
-
-<td width="45%" valign="top" align="center">
-
-<img src="./art/kymani-ascii.svg?v=3" width="400" alt="Kymani Jarrett — animated ASCII portrait" />
-
-</td>
-
-<td width="55%" valign="top" align="left">
-
-```console
-$ whoami
-Kymani Jarrett — Software Engineer
-
-$ education
-B.S. Information Technology & Cybersecurity
-University of Cincinnati
-
-$ experience --latest
-Software Engineer Intern @ The J.M. Smucker Co.
-Shipped data infrastructure as code to production
-on AWS across a portfolio of iconic consumer brands.
-
-$ ls ~/projects
-Vigil     ETL observability for AWS Glue pipelines.
-          Anomaly detection, RBAC, audit logging.
-Clausify  AI contract analysis scoring legal clauses
-          for risk through a RAG pipeline.
-
-$ cat ~/.involvement
-Corporate Outreach Chair | ColorStack@UC
-Secretary | Bearcat Buddies
-Resident Advisor | Resident Edu. & Dev.
-```
-
-</td>
-
-</tr>
-</table>
-
-</div>
+<p align="center">
+  <a href="https://kymanij.vercel.app">
+    <img src="./art/profile-card.svg?v=1" width="100%" alt="ASCII portrait of Kymani Jarrett beside a terminal. whoami: Kymani Jarrett, Software Engineer. Education: B.S. Information Technology and Cybersecurity, University of Cincinnati, May 2028. Latest experience: Cloud Data Engineer Intern at The J.M. Smucker Co. Projects: Vigil, ETL observability for AWS Glue pipelines with anomaly detection, RBAC, and audit logging; Clausify, AI contract analysis that scores each clause for risk. Involvement: Corporate Outreach Chair at ColorStack@UC, Programming Chair at UBSA, Secretary of the Bearcat Buddies Advisory Council, Resident Advisor." />
+  </a>
+</p>
 
 <br>
 
@@ -58,7 +19,7 @@ Resident Advisor | Resident Edu. & Dev.
 <h2 align="center">💻 Tech Stack</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,js,cs,java,cpp,react,nextjs,nodejs,express,fastapi,tailwind,postgres,supabase,mongodb,aws,azure,docker,git,github,gitlab,linux,bash,vercel,postman,figma,vscode,idea&perline=14" />
+  <img alt="Tech stack" src="https://skillicons.dev/icons?i=py,java,ts,js,cs,spring,angular,react,nodejs,express,fastapi,dotnet,tailwind,aws,azure,postgres,mysql,supabase,docker,git,github,githubactions,gitlab,linux,bash,vercel,postman,figma,vscode,idea&perline=15" />
 </p>
 
 <br>
